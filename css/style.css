@@ -146,32 +146,41 @@ li {
 }
 
 .sectOne {
-	width: 100%
+	width: 100%;
+	background-image: 100%;
 }
 .sectTwo {
-	width: 100%
+	width: 100%;
 }
 .sectThree {
-	width: 100%
+	width: 100%;
 }
 .secFour {
-	width: 100%
+	width: 100%;
 }
 
 
  }
 
  @media screen and (max-width: 480px){
- 	.sectOne {
-	width: 100%
+
+h3 {
+	width: 100%;
+}
+.sectOne {
+	max-width: 100%;
+	height: auto;
 }
 .sectTwo {
-	width: 100%
+	max-width: 100%;
+	height: auto;
 }
 .sectThree {
-	width: 100%
+	max-width: 100%;
+	height: auto;
 }
 .secFour {
-	width: 100%
+	max-width: 100%;
+	height: auto;
 }
  }
