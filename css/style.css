@@ -55,19 +55,19 @@ h2 {
 
 
 .sectOne {
-	background-image: url("../img/rice.JPG");
+	background-image: url("../img/veggies.jpg");
 }
 
 .sectTwo {
-	background-image: url("../img/BBQ.JPG");
+	background-image: url("../img/thai.jpg");
 }
 
 .sectThree {
-	background-image: url("../img/pork_bacrolli.JPG");
+	background-image: url("../img/grill.jpg");
 }
 
 .sectFour {
-	background-image: url("../img/corn_bacrolli.JPG");
+	background-image: url("../img/salmon.jpg");
 }
 
 h3{
@@ -170,17 +170,14 @@ h3 {
 .sectOne {
 	max-width: 100%;
 	height: auto;
-	background-size: 100% 100%;
 }
 .sectTwo {
 	max-width: 100%;
 	height: auto;
-	background-size: 100% 100%;
 }
 .sectThree {
 	max-width: 100%;
 	height: auto;
-	background-size: 100% 100%;
 }
 .secFour {
 	max-width: 100%;
