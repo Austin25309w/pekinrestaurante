@@ -2,8 +2,8 @@
 	box-sizing: border-box;
 	margin: 0;
 }
-/*.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; 
-}*/
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; 
+}
 
 html, body {
 	height: 100%;
@@ -22,7 +22,7 @@ nav {
 	top: 0;*/
 	width: 100%;
 	background-color: #895A5F;
-	height: 75px;
+	height: 100px;
 	font-size: 25px;
 	/*height: 50px;*/
 	/*opacity: 0.5;*/
@@ -59,6 +59,7 @@ h2 {
 }
 
 .sectTwo {
+<<<<<<< HEAD
 	background-image: url("../img/bbq.jpg");
 }
 
@@ -68,6 +69,17 @@ h2 {
 
 .sectFour {
 	background-image: url("../img/bacoli.jpg");
+=======
+	background-image: url("../img/bacoli.jpg");
+}
+
+.sectThree {
+	background-image: url("../img/BBQ.jpg");
+}
+
+.sectFour {
+	background-image: url("../img/corn.jpg");
+>>>>>>> master
 }
 
 h3{
@@ -81,7 +93,7 @@ h3{
 ul {
 	display: block;
 	text-align: right;
-	word-spacing: 15px;
+	word-spacing: 5px;
 	padding-right: 15px;
 	margin: 15px;
 	float: right;
@@ -120,6 +132,7 @@ li {
  }
 
  footer a {
+<<<<<<< HEAD
  	color: #f1f1f1;
 
  }
@@ -150,3 +163,70 @@ nav {
 	height: 1000px;
 }
 }
+=======
+ 	color: #895A5F;
+ }
+
+
+ @media screen and (max-width: 980px){
+
+.mobile-menu {
+	width: auto;
+	position: relative;
+	padding:0;
+	height: 50px;
+	line-height: 50px;
+}
+
+.burger-nav {
+	display: block;
+	height: 40px;
+	padding: 0 20px;
+	color: #ffffff;
+	font-size: 20px;
+	cursor: pointer;
+	width: 100%;
+	background-color: #EDB74D;
+	background: url(img/burger.png) no-repeat 98% center;
+}
+
+.sectOne {
+	width: 100%;
+	background-image: 100%;
+}
+.sectTwo {
+	width: 100%;
+}
+.sectThree {
+	width: 100%;
+}
+.secFour {
+	width: 100%;
+}
+
+
+ }
+
+ @media screen and (max-width: 480px){
+
+h3 {
+	width: 100%;
+}
+.sectOne {
+	max-width: 100%;
+	height: auto;
+}
+.sectTwo {
+	max-width: 100%;
+	height: auto;
+}
+.sectThree {
+	max-width: 100%;
+	height: auto;
+}
+.secFour {
+	max-width: 100%;
+	height: auto;
+}
+ }
+>>>>>>> master
